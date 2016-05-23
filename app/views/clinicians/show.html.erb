@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	 <div class="container">
+		 <div class="navbar-header">
+			 <%= link_to @clinician.name, clinician_path(@clinician), { :class=>"navbar-brand" } %>
+		 </div>
+	 </div>
+ </nav>
+ <div class="container sparse-page">
+		 <div class='row-fluid'>
+		 	<div class='span4'><img src="/assets/placeholder.png" alt="Image goes here" class="img-rounded"></div>
+		 	<div class='span4'>
+		 		<%= @clinician.name %> <%= @clinician.specialism %> <%= @clinician.location %>
+				</div>
+			</div>
+		 <!--
+		 update the view to do a nice detail thingy with a photo of the clinician
+		 -->
+  </div>
+ </div>

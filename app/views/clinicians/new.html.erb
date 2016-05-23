@@ -1,0 +1,31 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	 <div class="container">
+		 <div class="navbar-header">
+			 <%= link_to "Register yourself as a new clinician with OIH", new_clinician_path, { :class=>"navbar-brand" } %>
+		 </div>
+	 </div>
+ </nav>
+
+<div class="container">
+<%= form_for(@clinician) do |f| %>
+  <p>
+    <%= f.label :name %><br/>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :email %><br/>
+    <%= f.email_field :email %>
+  </p>
+  <p>
+    <%= f.label :location %><br/>
+    <%= f.text_field :location, size: 20 %>
+  </p>
+  <p>
+    <%= f.label :specialism %><br/>
+    <%= f.text_field :specialism %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+</div class="container">
