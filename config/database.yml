@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: callum_anderson_development
+  database: oih_development
   pool: 5
   username:
   password:
@@ -17,7 +17,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: callum_anderson_production
+  database: oih_production
   pool: 5
   username:
   password:
