@@ -1,4 +1,5 @@
 == README
+[![BuildStatus](http://img.shields.io/travis/callumanderson/oih/master.svg?style=flat)](https://travis-ci.org/callumanderson/oih)
 
 *What is it?*
 -----------
