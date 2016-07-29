@@ -6,7 +6,7 @@ Oxford Independent Health is a new way of looking at Private Healthcare.
 
 *Installation*
 
-This software is designed to run with Ruby 2.2+ and Rails 4+
+This software is designed to run with Ruby 2.3+ and Rails 4+
 
 To install dependencies
 ````
